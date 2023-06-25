@@ -5,6 +5,16 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint", "HwansPaint\HwansPaint.csproj", "{A95FBFCB-228E-4FC1-BD75-78AAF7D28FC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint.Common", "HwansPaint.Common\HwansPaint.Common.csproj", "{34FFEA4E-98D2-4DBC-8013-3003D4CFB813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint.Controls", "HwansPaint.Controls\HwansPaint.Controls.csproj", "{799DEF49-7492-49D3-9D6A-486E11B2033A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint.Models", "HwansPaint.Models\HwansPaint.Models.csproj", "{6A232A9C-1063-41CB-BF13-8DEE1D743528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint.Views", "HwansPaint.Views\HwansPaint.Views.csproj", "{DF62A9AB-1AB8-4C30-B2C2-D91C4F944EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwansPaint.ViewModels", "HwansPaint.ViewModels\HwansPaint.ViewModels.csproj", "{35B50658-4B21-436A-A4C5-63FE823029E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{A95FBFCB-228E-4FC1-BD75-78AAF7D28FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95FBFCB-228E-4FC1-BD75-78AAF7D28FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95FBFCB-228E-4FC1-BD75-78AAF7D28FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FFEA4E-98D2-4DBC-8013-3003D4CFB813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FFEA4E-98D2-4DBC-8013-3003D4CFB813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FFEA4E-98D2-4DBC-8013-3003D4CFB813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FFEA4E-98D2-4DBC-8013-3003D4CFB813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799DEF49-7492-49D3-9D6A-486E11B2033A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799DEF49-7492-49D3-9D6A-486E11B2033A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799DEF49-7492-49D3-9D6A-486E11B2033A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799DEF49-7492-49D3-9D6A-486E11B2033A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A232A9C-1063-41CB-BF13-8DEE1D743528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A232A9C-1063-41CB-BF13-8DEE1D743528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A232A9C-1063-41CB-BF13-8DEE1D743528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A232A9C-1063-41CB-BF13-8DEE1D743528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF62A9AB-1AB8-4C30-B2C2-D91C4F944EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF62A9AB-1AB8-4C30-B2C2-D91C4F944EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF62A9AB-1AB8-4C30-B2C2-D91C4F944EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF62A9AB-1AB8-4C30-B2C2-D91C4F944EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B50658-4B21-436A-A4C5-63FE823029E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B50658-4B21-436A-A4C5-63FE823029E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B50658-4B21-436A-A4C5-63FE823029E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B50658-4B21-436A-A4C5-63FE823029E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

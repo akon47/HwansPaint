@@ -55,16 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -93,6 +85,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HwansPaint.Common\HwansPaint.Common.csproj">
+      <Project>{34ffea4e-98d2-4dbc-8013-3003d4cfb813}</Project>
+      <Name>HwansPaint.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HwansPaint.Controls\HwansPaint.Controls.csproj">
+      <Project>{799def49-7492-49d3-9d6a-486e11b2033a}</Project>
+      <Name>HwansPaint.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HwansPaint.Models\HwansPaint.Models.csproj">
+      <Project>{6a232a9c-1063-41cb-bf13-8dee1d743528}</Project>
+      <Name>HwansPaint.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HwansPaint.ViewModels\HwansPaint.ViewModels.csproj">
+      <Project>{35b50658-4b21-436a-a4c5-63fe823029e2}</Project>
+      <Name>HwansPaint.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HwansPaint.Views\HwansPaint.Views.csproj">
+      <Project>{df62a9ab-1ab8-4c30-b2c2-d91c4f944eb2}</Project>
+      <Name>HwansPaint.Views</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
