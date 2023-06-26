@@ -51,13 +51,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HwansPaint.Common\HwansPaint.Common.csproj">
+      <Project>{34ffea4e-98d2-4dbc-8013-3003d4cfb813}</Project>
+      <Name>HwansPaint.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HwansPaint.ViewModels\HwansPaint.ViewModels.csproj">
       <Project>{35b50658-4b21-436a-a4c5-63fe823029e2}</Project>
       <Name>HwansPaint.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Converters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Properties\DesignTimeResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

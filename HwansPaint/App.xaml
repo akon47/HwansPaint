@@ -5,6 +5,10 @@
     StartupUri="pack://application:,,,/HwansPaint.Views;component/Windows/MainWindow.xaml"
     >
     <Application.Resources>
-
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HwansPaint.Views;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
